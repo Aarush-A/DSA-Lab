@@ -1,4 +1,3 @@
-```c
 //Addition, subtraction, division, and multiplication of matrices using a menu-driven program
 
 #include <stdio.h>
@@ -94,4 +93,3 @@ int main() {
             break;
     }
 }
-```
