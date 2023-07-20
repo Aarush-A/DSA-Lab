@@ -1,4 +1,4 @@
-//Insertion, Deletion, Sorting \& Searching in an array using a menu-driven program
+//Insertion, Deletion, Sorting \& Searching in an array using a menu-driven program.
 #include <stdio.h>
 void insertion(int n,int arr[n]){
     int val,ind;
