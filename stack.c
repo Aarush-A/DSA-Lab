@@ -1,25 +1,25 @@
 #include <stdio.h>
 #define MAX 4
-int top=-1, item[MAX];
+int top=0, item[MAX];
 void push(){
     int x;
     if (top==MAX-1) printf("\nOverflow!!");
     else{
         printf("\nEnter the element:");
         scanf("%d", &x);
-        top++;
         item[top] = x;
+        top++;
     }
 }
 
 void pop(){
-    if (top==-1) printf("\nUnderflow!!");
+    if (top==0) printf("\nUnderflow!!");
     else top--;
 }
 
 void print()
 {
-    for (int i = top; i >= 0; --i){
+    for (int i = top; i >= 0; i--){
         printf("%d\n", item[i]);
     }
 }
